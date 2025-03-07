@@ -12,7 +12,6 @@ def parse_opts():
     parser.add_argument('--channel', default=1, type=int, help='channel number of input data, 1 for Y channel, 3 for YUV')
     parser.add_argument('--size_x', default=112, type=int, help='patch size x of segment')
     parser.add_argument('--size_y', default=112, type=int, help='patch size y of segment')
-    parser.add_argument('--stride_x', default=80, type=int, help='patch stride x between segments')
     parser.add_argument('--stride_y', default=80, type=int, help='patch stride y between segments')
 
     parser.add_argument('--learning_rate', default=3e-4, type=float, help='learning rate')
