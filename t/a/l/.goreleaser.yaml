@@ -194,7 +194,6 @@ nfpms:
       - src: "tpl"
         dst: "/usr/lib/{{ .ProjectName }}/tpl"
       - src: "tool"
-        dst: "/usr/lib/{{ .ProjectName }}/tool"
       - src: "builtin"
         dst: "/usr/lib/{{ .ProjectName }}/builtin"
       - src: "cl"
