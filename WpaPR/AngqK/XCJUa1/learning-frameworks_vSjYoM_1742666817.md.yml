@@ -23,7 +23,6 @@ env:
 
     - BUILD_NAME="default-cmake" WITH_CMAKE=true
     - BUILD_NAME="python3-cmake" WITH_CMAKE=true WITH_PYTHON3=true
-    - BUILD_NAME="no-io-cmake" WITH_CMAKE=true WITH_IO=false
     - BUILD_NAME="cuda-cmake" WITH_CMAKE=true WITH_CUDA=true
     - BUILD_NAME="cudnn-cmake" WITH_CMAKE=true WITH_CUDA=true WITH_CUDNN=true
 
